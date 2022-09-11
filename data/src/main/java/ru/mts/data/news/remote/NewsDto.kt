@@ -1,19 +1,15 @@
 package ru.mts.data.news.remote
 
-import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import kotlinx.parcelize.Parcelize
-import ru.mts.data.news.repository.News
+import ru.mts.data.news.db.News
 
 
 class NewsDto {
-    @Parcelize
-    data class Request(@SerializedName("id") val id: Int) : Parcelable
 
-    @Parcelize
-    data class Response(@SerializedName("id") val id: Int) : Parcelable
-}
+    data class Request(@SerializedName("id") val id: Int)
 
-internal fun NewsDto.Response.toDomain(): News {
-    return News(this.id)
+    data class Response(
+        @SerializedName("result") val result: Int,
+        @SerializedName("items") val items: List<News>
+    )
 }

@@ -5,10 +5,10 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import ru.mts.data.news.db.NewsDao
-import ru.mts.data.news.db.NewsEntity
+import ru.mts.data.news.db.News
 
 
-@Database(entities = [NewsEntity::class], version = 1)
+@Database(entities = [News::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun newsDao(): NewsDao
 

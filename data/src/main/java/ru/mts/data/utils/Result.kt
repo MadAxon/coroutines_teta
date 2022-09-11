@@ -1,5 +1,6 @@
 package ru.mts.data.utils
 
+import kotlinx.coroutines.TimeoutCancellationException
 import timber.log.Timber
 import java.util.concurrent.CancellationException
 
@@ -56,6 +57,9 @@ inline fun <S, E> Result<S, E>.doOnError(block: (E) -> Unit): Result<S, E> {
 inline fun <S, R> S.runOperationCatching(block: S.() -> R): Result<R, Throwable> {
     return try {
         Result.Success(block())
+    } catch (e: TimeoutCancellationException) {
+        Timber.e("runOperationCatching: ".plus(e.toString()))
+        Result.Error(e)
     } catch (e: CancellationException) {
         Timber.e("runOperationCatching: ".plus(e.toString()))
         throw e

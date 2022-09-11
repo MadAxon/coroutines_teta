@@ -1,3 +1,68 @@
 {
-  "id": 4
+  "result": 200,
+  "items":[
+  {
+    "id": 1,
+    "type": "finance",
+    "title": "BoE proposes 'more British style' of finance regulation",
+    "subtitle": "The Bank of England said today it would move to a \"more British style of regulation\" for the country's huge financial services industry",
+    "timestamp": "2022-08-07T10:25:10+03:00"
+  },
+  {
+    "id": 2,
+    "type": "finance",
+    "title": "3 Consumer Finance Stocks Downgraded by JPMorgan",
+    "subtitle": "A JPMorgan analyst made a series of moves in the firm's research coverage of Consumer Finance.",
+    "timestamp": "2022-08-08T18:26:11+03:00"
+  },
+  {
+    "id": 3,
+    "type": "weather",
+    "title": "India Weather News Live Updates: IMD issues ‘red alert’ to Kerala districts",
+    "subtitle": "The India Meteorological Department has issued a 'red alert' to Idukki",
+    "timestamp": "2022-08-09T12:27:43+03:00"
+  },
+  {
+    "id": 4,
+    "type": "finance",
+    "title": "Stock Market Today (9/7/22): Stocks Bounce as Oil Prices Crumble",
+    "subtitle": "Other news in the stock market today...",
+    "timestamp": "2022-08-09T13:27:53+03:00"
+  },
+  {
+    "id": 5,
+    "type": "politics",
+    "title": "Political donations High Court trial expected to conclude today",
+    "subtitle": "The Serious Fraud Office (SFO) brought charges against seven people, including former MP Jami-Lee Ross",
+    "timestamp": "2022-08-09T14:17:53+03:00"
+  },
+  {
+    "id": 6,
+    "type": "weather",
+    "title": "BJP's Tejasvi Surya Says He Was on Ground with Peop",
+    "subtitle": "Maharashtra Weather Update: Mumbai, Pune to Receive Heavy Rain for Next 5 Days",
+    "timestamp": "2022-08-09T15:30:43+03:00"
+  },
+  {
+    "id": 7,
+    "type": "politics",
+    "title": "Steve Bannon indicted on charges in 'We Build the Wall' fraud case",
+    "subtitle": "In a statement to NBC News on Tuesday, Bannon said, “This is nothing more than a partisan political weaponization of the criminal justice",
+    "timestamp": "2022-08-09T18:29:43+03:00"
+  },
+  {
+    "id": 8,
+    "type": "science",
+    "title": "The science of seatbelts and airbags in your cars",
+    "subtitle": "Days after an accident led to the death of former Tata Sons chairman Cyrus Mistry",
+    "timestamp": "2022-08-09T19:49:43+03:00"
+  },
+  {
+    "id": 9,
+    "type": "science",
+    "title": "Protons contain intrinsic charm quarks, a new study suggests",
+    "subtitle": "“It's not done at what we today call the state-of-art analysis.”",
+    "timestamp": "2022-08-09T20:20:43+03:00"
+  }
+]
 }
